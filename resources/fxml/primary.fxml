@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane fx:id="borderPane" stylesheets="/css/primary.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.Controller">
+   <center>
+      <GridPane fx:id="gridPane" alignment="center" hgap="10" vgap="10" BorderPane.alignment="CENTER">
+         <rowConstraints>
+            <RowConstraints valignment="CENTER" />
+         </rowConstraints>
+         <columnConstraints>
+            <ColumnConstraints halignment="CENTER" />
+         </columnConstraints>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <Button mnemonicParsing="false" onAction="#clicked" text="Click me!" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <padding>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </padding></Button>
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Label fx:id="topLabel" text="Top label" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></Label>
+   </top>
+   <left>
+      <Label fx:id="leftLabel" text="Left label" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></Label>
+   </left>
+   <right>
+      <Label fx:id="rightLabel" text="Right label" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></Label>
+   </right>
+   <bottom>
+      <Label fx:id="bottomLabel" text="Bottom label" BorderPane.alignment="CENTER">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding></Label>
+   </bottom>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</BorderPane>
